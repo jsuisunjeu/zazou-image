@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'Odyssée de Zazou</title>
     <style>
-        body { margin: 0; text-align: center; }
-        img { width: 100%; height: auto; cursor: pointer; }
+        /* Suppression des marges et padding de tout le document */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Style pour l'image */
+        body {
+            display: flex;
+            justify-content: center; /* Centrer horizontalement */
+            align-items: center; /* Centrer verticalement */
+            height: 100%;
+        }
+
+        img {
+            width: 100%; /* Prendre toute la largeur */
+            height: auto; /* Maintenir les proportions de l'image */
+            display: block; /* Retirer l'espace blanc en dessous de l'image */
+        }
     </style>
 </head>
 <body>

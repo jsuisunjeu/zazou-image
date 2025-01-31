@@ -25,9 +25,14 @@
         /* Image qui remplit l'iframe tout en respectant ses proportions */
         .image-container img {
             width: 100%;
-            height: 100%;
-            object-fit: contain; /* Permet de garder l'image entière sans la couper */
+            height: auto;
             display: block;
+            border: none; /* Suppression de toute bordure */
+        }
+
+        /* Suppression de toute bordure de l'iframe */
+        iframe {
+            border: none;
         }
     </style>
 </head>

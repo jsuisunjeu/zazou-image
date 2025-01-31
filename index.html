@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'Odyssée de Zazou</title>
     <style>
-        /* Suppression des marges et padding */
+        /* Enlever les marges et le padding de tout le document */
         html, body {
             margin: 0;
             padding: 0;
@@ -13,35 +13,27 @@
             width: 100%;
         }
 
-        /* Conteneur image qui occupe tout l'espace disponible */
+        /* Conteneur d'image prenant toute la largeur */
         .image-container {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Image qui remplit l'iframe tout en respectant ses proportions */
-        .image-container img {
-            width: 100%;
-            height: auto;
+            width: 3000;
+            height: 1000;
             display: block;
-            border: none; /* Suppression de toute bordure */
         }
 
-        /* Suppression de toute bordure de l'iframe */
-        iframe {
-            border: none;
+        /* Image sans marges et bordures */
+        .image-container img {
+            width: 100%;  /* Prendre 100% de la largeur du conteneur */
+            height: auto; /* Conserver la proportion de l'image */
+            display: block; /* Éviter les espaces blancs */
+            border: none;  /* Aucune bordure autour de l'image */
         }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <a href="https://app.jsuisunjeu.com/preface/i/85214630/mode-guide-mini-jeu" target="_blank">
+        <a href="https://app.jsuisunjeu.com/preface/c/0/i/85214630/mode-guide-mini-jeu" target="_blank">
             <img src="https://res.cloudinary.com/dzto2gxt9/image/upload/v1738348867/d8beaoxnu6gt0l2vwfw5.png" alt="L'Odyssée de Zazou">
         </a>
     </div>
 </body>
 </html>
-

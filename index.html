@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'Odyssée de Zazou</title>
     <style>
-        /* Suppression de tout espacement et alignement central */
+        /* Suppression de marges et de padding, centrer l'image */
         html, body {
             margin: 0;
             padding: 0;
@@ -14,14 +14,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden; /* Empêcher les barres de défilement */
+            overflow: hidden;
         }
 
-        /* Image qui occupe toute la largeur sans déformer ses proportions */
+        /* Style pour l'image afin qu'elle remplisse l'iframe sans déformation */
         img {
-            width: 100%;
-            height: auto;
-            display: block; /* Pour supprimer l'espace sous l'image */
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
         }
     </style>
 </head>
